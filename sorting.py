@@ -1,3 +1,3 @@
-numbers = [5, 2, 9, 1, 7]
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
 numbers.sort()
-print(numbers)
+print("Sorted numbers:", numbers)
