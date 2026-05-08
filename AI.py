@@ -1,3 +1,4 @@
+# AI-1
 from collections import deque 
  
 # Undirected graph 
@@ -41,6 +42,7 @@ print("\n")
 print("\nBFS Traversal:") 
 bfs(graph, 'A') 
 
+# AI-2
 import heapq 
  
 def a_star(grid, start, end): 
@@ -93,6 +95,8 @@ start = (0,0)
 end = (2,2) 
 print(a_star(grid, start, end))
 
+
+# AI-2
 class Job: 
     def __init__(self, id, deadline, profit): 
         self.id = id 
@@ -136,6 +140,8 @@ result, profit = job_scheduling(jobs)
 print("Scheduled Jobs:", result) 
 print("Total Profit:", profit)
 
+
+# AI-4
 def is_safe(board, row, col, n): 
     # Check same column 
     for i in range(row): 
@@ -188,6 +194,9 @@ if solve_n_queens(board, 0, n):
 else: 
     print("No solution exists")
 
+
+
+# AI-5
 import re 
  
 # Valid cities (you can add more) 
@@ -278,6 +287,9 @@ while True:
     reply = chatbot_response(user) 
     print("Chatbot:", reply)
 
+
+
+# AI-6
 # Expert System: Employee Performance Evaluation (Forward Chaining) 
  
 # Knowledge Base (Rules) 
